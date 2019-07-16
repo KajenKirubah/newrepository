@@ -4,4 +4,12 @@
     justify-content: space-around;
     flex-wrap: wrap;
     align-items: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+@media (min-width: 500px) {
+    .WorkerOrders {
+        padding: 0;
+    }
 }

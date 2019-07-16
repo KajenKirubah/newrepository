@@ -1,9 +1,15 @@
 .Order {
-    width: 30%;
+    width: 100%;
     margin: 4rem auto;
     padding: 10px;
     border: 1px solid #ccc;
     box-shadow: 0 2px 3px #eee;
     box-sizing: border-box;
     text-align: center;
+}
+
+@media(min-width:600px) {
+    .Order {
+        width: 30%;
+    }
 }
